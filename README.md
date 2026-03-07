@@ -5,9 +5,9 @@ A collection of syntactic sugar functions for Python
 Add the following line to your ~/.bashrc:
 ```bash
 # S_utils
- if [ -f "${HOME}/Path/to/the/s_utils.py" ]; then
-   source "${HOME}/Path/to/the/s_utils.py"
- fi
+if [ -d "${HOME}/Path/to/the/directory/containing/the/s_utils.py" ]; then
+    PATH="${HOME}/Path/to/the/directory/containing/the/s_utils.py:${PATH}"
+fi
 ```
 
 # Usage
