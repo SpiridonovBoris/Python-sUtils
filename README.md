@@ -7,6 +7,7 @@ Add the following line to your ~/.bashrc:
 # S_utils
 if [ -d "${HOME}/Path/to/the/directory/containing/the/s_utils.py" ]; then
     PATH="${HOME}/Path/to/the/directory/containing/the/s_utils.py:${PATH}"
+    PYTHONPATH="${HOME}/Path/to/the/directory/containing/the/s_utils.py:${PYTHONPATH}"
 fi
 ```
 
