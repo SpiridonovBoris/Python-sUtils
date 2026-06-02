@@ -1,13 +1,13 @@
-# Python-s_utils
+# Python-sUtils
 A collection of syntactic sugar functions for Python
 
 # Install
 Add the following line to your ~/.bashrc:
 ```bash
-# S_utils
-if [ -d "${HOME}/Path/to/the/directory/containing/the/s_utils.py" ]; then
-    PATH="${HOME}/Path/to/the/directory/containing/the/s_utils.py:${PATH}"
-    PYTHONPATH="${HOME}/Path/to/the/directory/containing/the/s_utils.py:${PYTHONPATH}"
+# sUtils
+if [ -d "${HOME}/Path/to/the/directory/containing/the/sUtils.py" ]; then
+    PATH="${HOME}/Path/to/the/directory/containing/the/sUtils.py:${PATH}"
+    PYTHONPATH="${HOME}/Path/to/the/directory/containing/the/sUtils.py:${PYTHONPATH}"
 fi
 ```
 
@@ -15,5 +15,5 @@ fi
 ## As a Library
 After the shebang, add the following line at the beginning of your Python script:
 ```Python
-import s_utils
+import sUtils
 ```
